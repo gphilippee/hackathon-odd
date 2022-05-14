@@ -40,6 +40,8 @@ ipython==8.3.0
     # via black
 jedi==0.18.1
     # via ipython
+joblib==1.1.0
+    # via scikit-learn
 kiwisolver==1.4.2
     # via matplotlib
 matplotlib==3.5.2
@@ -52,6 +54,8 @@ numpy==1.22.3
     # via
     #   matplotlib
     #   pandas
+    #   scikit-learn
+    #   scipy
     #   transformers
 packaging==21.3
     # via
@@ -104,10 +108,18 @@ requests==2.27.1
     # via
     #   huggingface-hub
     #   transformers
+scikit-learn==1.1.0
+    # via sklearn
+scipy==1.8.0
+    # via scikit-learn
 six==1.16.0
     # via python-dateutil
+sklearn==0.0
+    # via -r requirements/requirements.in
 stack-data==0.2.0
     # via ipython
+threadpoolctl==3.1.0
+    # via scikit-learn
 tokenize-rt==4.2.1
     # via black
 tokenizers==0.12.1

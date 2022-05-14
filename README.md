@@ -60,6 +60,7 @@ macro avg       0.06      0.06      0.04       145
 weighted avg       0.20      0.09      0.10       145
 ```
 
-![output](https://user-images.githubusercontent.com/55877031/168439620-4a7b87f9-b010-48fe-a7be-fc560fcf8eda.png)
+![output](https://user-images.githubusercontent.com/55877031/168439899-e342f65b-5e1a-4aca-b3ff-0f91c809c1eb.png)
+
 
 ### ZS latent embedding with clean label

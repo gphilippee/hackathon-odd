@@ -2,6 +2,8 @@ transformers
 pandas
 torch
 
+tqdm
+
 #utils
 pip-tools
 black[jupyter]

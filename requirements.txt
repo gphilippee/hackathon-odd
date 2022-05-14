@@ -104,6 +104,7 @@ torch==1.11.0
     # via -r requirements/requirements.in
 tqdm==4.64.0
     # via
+    #   -r requirements/requirements.in
     #   huggingface-hub
     #   transformers
 traitlets==5.2.0

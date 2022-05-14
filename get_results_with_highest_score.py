@@ -2,10 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import logging
-import time
-from pathlib import Path
-import tqdm
-from typing import Dict
 
 import torch
 from sklearn.metrics import classification_report, ConfusionMatrixDisplay
@@ -26,8 +22,8 @@ label_to_target = {v: k for k, v in target_to_label.items()}
 targets = list(target_to_label.keys())
 targets.append("0")
 
-res_df = pd.read_csv("results/1652550295.4230733.csv")
-#print(res_df.head())
+res_df = pd.read_csv("results/zs-nli-19.csv")
+# print(res_df.head())
 
 target_df = pd.read_csv("data/afd_targets_odd_12_15_16.csv")
 
@@ -58,15 +54,8 @@ for i, row in res_df.iterrows():
     y_true.append(target1)
     y_pred.append(target1 if target1 in top_X_targets else target_max)
 
-print(y_true, y_pred)
-
 print(classification_report(y_true, y_pred, labels=targets))
 
 fig, ax = plt.subplots(figsize=(20, 15))
 ConfusionMatrixDisplay.from_predictions(y_true, y_pred, labels=targets, ax=ax)
 plt.show()
-
-
-
-
-

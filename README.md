@@ -62,6 +62,8 @@ https://github.com/osdg-ai/osdg-data
 weighted avg       0.28      0.19      0.20       149
 ```
 
+![output](https://user-images.githubusercontent.com/55877031/168450966-34b32ab6-681b-4f80-b5d9-006f141c186f.png)
+
 ### Top 3 highest score
 
 ```shell
@@ -107,6 +109,8 @@ weighted avg       0.28      0.19      0.20       149
    macro avg       0.27      0.26      0.21       149
 weighted avg       0.54      0.45      0.45       149
 ```
+
+![Uploading Capture d’écran 2022-05-15 à 01.11.25.png…]()
 
 ### Top 5 highest score
 
@@ -154,3 +158,4 @@ weighted avg       0.54      0.45      0.45       149
 weighted avg       0.61      0.57      0.55       149
 ```
 
+![Uploading Capture d’écran 2022-05-15 à 01.12.04.png…]()

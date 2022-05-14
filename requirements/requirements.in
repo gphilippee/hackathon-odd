@@ -2,6 +2,8 @@ transformers
 pandas
 torch
 matplotlib
+sklearn
+seaborn
 
 tqdm
 

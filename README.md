@@ -10,3 +10,6 @@ https://sdgs.un.org/goals/goal12
 https://sdgs.un.org/goals/goal15
 - ODD 16 : « Paix, justice et institutions efficaces » (12 cibles)
 https://sdgs.un.org/goals/goal16
+
+## OSDG data
+https://github.com/osdg-ai/osdg-data

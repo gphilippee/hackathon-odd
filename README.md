@@ -108,3 +108,5 @@ weighted avg       0.20      0.09      0.10       145
    macro avg       0.06      0.07      0.06       149
 weighted avg       0.17      0.17      0.16       149
 ```
+![output](https://user-images.githubusercontent.com/55877031/168440998-10bd68b8-4252-4c21-a212-22586de04043.png)
+

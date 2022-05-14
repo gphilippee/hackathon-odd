@@ -1,3 +1,7 @@
 transformers
+pandas
+torch
+
+#utils
 pip-tools
 black[jupyter]

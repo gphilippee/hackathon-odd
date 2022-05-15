@@ -110,7 +110,7 @@ weighted avg       0.28      0.19      0.20       149
 weighted avg       0.54      0.45      0.45       149
 ```
 
-![Uploading Capture d’écran 2022-05-15 à 01.11.25.png…]()
+<img width="877" alt="Capture d’écran 2022-05-15 à 01 11 25" src="https://user-images.githubusercontent.com/55877031/168461695-d39078ee-bbb5-4c8a-97c5-3da1cdbbf367.png">
 
 ### Top 5 highest score
 
@@ -158,4 +158,4 @@ weighted avg       0.54      0.45      0.45       149
 weighted avg       0.61      0.57      0.55       149
 ```
 
-![Uploading Capture d’écran 2022-05-15 à 01.12.04.png…]()
+<img width="868" alt="Capture d’écran 2022-05-15 à 01 12 04" src="https://user-images.githubusercontent.com/55877031/168461699-176c0314-b8dc-4209-9516-0724a881906e.png">

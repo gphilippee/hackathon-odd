@@ -11,6 +11,28 @@ https://sdgs.un.org/goals/goal15
 - ODD 16 : « Paix, justice et institutions efficaces » (12 cibles)
 https://sdgs.un.org/goals/goal16
 
+## How to run
+
+1. Create virtual environment
+
+```shell
+python -m venv .venv
+```
+
+2. Source virtual environment
+
+```shell
+source .venv/bin/activate
+```
+
+3. Install dependencies
+
+```shell
+pip install -r requirements.txt
+```
+
+4. Run the notebook
+
 ## Ressources
 
 * OSDG Data (https://github.com/osdg-ai/osdg-data)

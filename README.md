@@ -11,8 +11,12 @@ https://sdgs.un.org/goals/goal15
 - ODD 16 : « Paix, justice et institutions efficaces » (12 cibles)
 https://sdgs.un.org/goals/goal16
 
-## OSDG data
-https://github.com/osdg-ai/osdg-data
+## Ressources
+
+* OSDG Data (https://github.com/osdg-ai/osdg-data)
+* Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach
+Wenpeng Yin, Jamaal Hay, Dan Roth 2019 (https://arxiv.org/abs/1909.00161)
+* HF DistilBART MNLI (https://huggingface.co/valhalla/distilbart-mnli-12-9)
 
 ## Results
 

@@ -1,15 +1,23 @@
-# Hackathon ODD
+# Hackathon sustainable development
 
-https://github.com/Garage-ISEP/hackathon-ia-developpement-durable
+Repository containing our solution for the hackathon on the subject :
 
-**Quelle méthode pour identifier les cibles ODD (Objectifs de Développement Durable) dans un texte?**
+**Which method to identify the SDG (Sustainable Development Goals) targets in a text?**
 
-- ODD 12 : « Consommation et production responsables » (11 cibles)
-https://sdgs.un.org/goals/goal12
-- ODD 15 : « Vie terrestre » (12 cibles)
-https://sdgs.un.org/goals/goal15
-- ODD 16 : « Paix, justice et institutions efficaces » (12 cibles)
-https://sdgs.un.org/goals/goal16
+For this hackathon, we will focus on targets of the following SDG :
+- SDG 12 (10 targets) : Ensure sustainable consumption and production patterns
+- SDG 15 (12 targets) : Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+- SDG 16 (12 targets) : Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+
+## Our method
+
+We decide to use the model [DistilBART](https://huggingface.co/valhalla/distilbart-mnli-12-9) after being trained on the [MultiNLI (MNLI)](https://huggingface.co/datasets/multi_nli) dataset. We will evaluate in zero-shot one text with each target by the principle of Natural Language Inference :
+
+|                                                  Premise                                                  |               Hypothesis              | True probability |
+|:---------------------------------------------------------------------------------------------------------:|:-------------------------------------:|------------------|
+| Public transport is the most polluting form of transport because of the fleet constituted by old vehicles | The context is about public transport | 0.9882           |
+
+The hypotheses can be seen in the file `resources.py`
 
 ## How to run
 
@@ -33,14 +41,21 @@ pip install -r requirements.txt
 
 4. Run the notebook
 
-## Ressources
+## Resources
 
-* OSDG Data (https://github.com/osdg-ai/osdg-data)
-* Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach
-Wenpeng Yin, Jamaal Hay, Dan Roth 2019 (https://arxiv.org/abs/1909.00161)
-* HF DistilBART MNLI (https://huggingface.co/valhalla/distilbart-mnli-12-9)
+* [Hackathon base repositority](https://github.com/Garage-ISEP/hackathon-ia-developpement-durable)
+* [OSDG Community Dataset](https://github.com/osdg-ai/osdg-data)
+* [HuggingFace DistilBART MNLI](https://huggingface.co/valhalla/distilbart-mnli-12-9)
+* Wenpeng Yin, Jamaal Hay, Dan Roth - Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach - 2019 (https://arxiv.org/abs/1909.00161)
 
 ## Results
+
+Results obtain with the file in `/results/zs-nli-19.csv` in 3 parts :
+
+1. 1 highest target
+2. 3 highest targets
+3. 5 highest targets
+
 
 ### Highest score
 
